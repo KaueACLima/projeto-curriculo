@@ -1,0 +1,168 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.6rem;
+}
+
+.cabecalho {
+  background: linear-gradient(
+    27deg,
+    rgba(85, 83, 83, 0.9) 0%,
+    rgba(255, 255, 255, 1) 69%
+  );
+  color: #0e0524;
+  padding: 4rem;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.cabecalho .logo {
+  font-size: 5rem;
+  padding-left: 3rem;
+}
+
+.descricao {
+  width: 40%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.descricao .descricao_informacao .title {
+  margin-bottom: 1.7rem;
+  text-transform: uppercase;
+  color: #2b2932;
+}
+
+.descricao .descricao_informacao .text {
+  font-weight: 300;
+  color: #2b2932;
+  line-height: 1.6rem;
+}
+
+.experiencia-profissional {
+  display: flex;
+  padding: 1rem;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.experiencia-profissional
+  .informacoes-adicionais
+  .title_experiencia-profissional {
+  text-align: left;
+  margin-bottom: 1.7rem;
+  color: #2b2932;
+}
+
+.experiencia-profissional .freelancer,
+.experiencia-profissional .experiencias-projetos {
+  width: 90%;
+  margin: 1.5rem 0;
+  padding: 1rem;
+}
+
+.freelancer p,
+span,
+.experiencias-projetos h3,
+ul {
+  line-height: 24px;
+}
+
+ a {
+  display: block;
+  font-size: 14px;
+  color: #2268ff;
+  margin-bottom: 1rem;
+}
+
+.experiencias-projetos ul li {
+  text-align: start;
+  margin-bottom: 0.5rem;
+
+  padding: 0 1rem;
+  border-radius: 1rem;
+}
+
+.experiencia-profissional .freelancer h3 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #2b2932;
+}
+
+.experiencia-profissional .freelancer span {
+  font-weight: 500;
+  color: #2b2932;
+}
+
+.experiencia-profissional .freelancer p {
+  font-weight: 300;
+}
+
+.experiencia-profissional .experiencias-projetos .default-title {
+  color: #2b2932;
+}
+
+.informacoes-pessoais-adicionais {
+  padding: 0 2rem;
+}
+
+.email,
+.whatsapp,
+.github,
+.linkedin {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icone {
+  display: flex;
+  width: 16px;
+  height: 16px;
+}
+
+.informacoes-pessoais-adicionais .contato,
+.educacao {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 1.5rem;
+}
+
+.informacoes-pessoais-adicionais .contato h2,
+.educacao h2 {
+  color: #2b2932;
+  margin-bottom: 1rem;
+}
+
+.informacoes-pessoais-adicionais .educacao .etec-parque-belem,
+.etec-aprigio-gonzaga {
+  color: #2b2932;
+  font-size: 14px;
+}
+
+.educacao,
+.etec-aprigio-gonzaga h4 {
+  display: block;
+  margin: 0;
+}
+
+.informacoes-pessoais-adicionais .educacao .etec-parque-belem ul {
+  margin-bottom: 1rem;
+}
+
+.informacoes-pessoais-adicionais .educacao .etec-parque-belem h3,
+.etec-aprigio-gonzaga h4 {
+  margin-bottom: 1rem;
+}
+/* .experiencia-profissional .experiencias-projetos
+
+.title_experiencia-profissional{
+    border: 1px solid rgb(208, 255, 0);
+    width: 100%;
+} */
